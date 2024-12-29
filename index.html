@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram Prosad Sarker | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-image: url('kop.avif'); /* Make sure the image path is correct */
+            background-size: cover; /* Ensures the image covers the whole header */
+            background-position: center; /* Centers the background image */
+            color: white;
+            padding: 170px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .about, .projects, .contact, .education, .experience, .awards {
+            margin-bottom: 0;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px; /* Adds space between the About Me section and next content */
+        }
+        .about img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center 20%;
+            margin-right: 30px;
+        }
+        .about p {
+            max-width: 600px;
+            text-align: justify;
+            margin-left: 20px;
+        }
+        .education, .experience, .awards {
+            margin-top: 30px;
+        }
+        .education h2, .experience h2, .awards h2 {
+            color: #4CAF50;
+        }
+        .education p, .experience p, .awards p {
+            font-size: 1.1rem;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .download-btn {
+            background-color: #4CAF50;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+        /* Centered "Hello It's me" */
+        .intro-text {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ram Prosad Sarker</h1>
+        <p>B.Sc. Engg 3rd Year | Dept of ICT</p>
+        <p>Mawlana Bhashani Science and Technology University</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a> <!-- Added link to Awards section -->
+        <a href="#contact">Contact</a>
+        <a href="#cv">Download CV</a>
+    </nav>
+
+    <div class="container">
+        <!-- Intro text for "Hello It's me" -->
+        <div class="intro-text">
+            <p>Hello, It's me</p>
+            <p>Welcome to My website</p>
+        </div>
+
+        <section id="about" class="about">
+            <img src="ami2.jpg" alt="Ram Prosad Sarker">
+            <p>RAM PROSAD SARKER is a dedicated undergraduate student in the Department of Information and Communication Technology (ICT) at Mawlana Bhashani Science and Technology University (MBSTU), Tangail, Dhaka, Bangladesh, with a strong passion for machine learning, deep learning, neural networks, cybersecurity, and mobile development. His research focuses on developing predictive models with techniques and Explainable AI, exploring advanced neural network architectures, and enhancing information system security. He actively participates in competitive programming to refine his problem-solving skills and is also engaged in Android development projects, with a keen interest in iOS development. Proficient in Python, Java, C, and C++. Ram Prosad Sarker utilizes tools such as TensorFlow, Keras, and Android Studio to work on innovative projects and contribute to the fields of machine learning and cybersecurity.</p>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Educational Attainment</h2>
+            <p><strong>B.Sc. (Engineering) in Information and Communication Technology (ICT)</strong><br>
+               Institution: Mawlana Bhashani Science and Technology University (MBSTU), Tangail, Dhaka, Bangladesh</p>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Experience</h2>
+            <p><strong>Research Student, Machine Learning, Data Science</strong><br>
+               Department of Information and Communication Technology, Mawlana Bhashani Science and Technology University, Tangail-1902, Bangladesh.</p>
+            <p><strong>Regular Contestant</strong><br>
+               Programming with C, C++, Python, Codeforces, CodeChef, UVA. Enrolled in the Department of Information and Communication Technology, Mawlana Bhashani Science and Technology University, Tangail-1902, Bangladesh.</p>
+            <p><strong>Higher Secondary Certificate (HSC)</strong><br>
+               Notre Dame College Mymensingh (NDCM), Notre Dame College Road, City Bypass, Barera, Mymensingh, Bangladesh.</p>
+            <p><strong>Secondary School Certificate (SSC)</strong><br>
+               Boyra Israil Ahmed High School, Jamalpur, Mymensingh, Bangladesh.</p>
+        </section>
+
+        <section id="awards" class="awards">
+            <h2>Awards</h2>
+            <p><strong>TOP Place in the Inter-Department Programming Competition (IDPC)</strong><br>
+               Department of Information and Communication Technology, Mawlana Bhashani Science and Technology University (MBSTU), Tangail, Bangladesh.</p>
+            <p><strong>Highest Honor in the SSC Examination</strong><br>
+               Achieved a flawless GPA of 5.00 on a 5.00 scale at Notre Dame College Mymensingh (NDCM), Notre Dame College Road, City Bypass, Barera, Mymensingh, Bangladesh.</p>
+            <p><strong>Remarkable Academic Distinction in the SSC Examination</strong><br>
+               Achieved a flawless GPA of 5.00 on a 5.00 scale at Boyra Israil Ahmed High School, Jamalpur, Mymensingh, Bangladesh.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project 1: [Tuition Note Android & IOS Application]</h3>
+                    <p>Description of your project and what it accomplishes.</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2: [Parkinson Disease Detection Using Machine Learning]</h3>
+                    <p>Description of another project and its significance.</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3: [Automatic IoT Based Smart Home]</h3>
+                    <p>Description of a third project and its features.</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to collaborate or get in touch, feel free to reach out!</p>
+            <p>Email: <a href="mailto:it21038@mbstu.ac.bd">Mail to Ram Prosad Sarker</a></p>
+            <p>Email: <a href="mailto:ramprosadsarker.ict@gmail.com">Another Mail to Ram Prosad Sarker</a></p>
+            <p>Phone: +8801990308990</p>
+        </section>
+
+        <section id="cv">
+            <h2>Download My CV</h2>
+            <p>Click the link below to download my CV:</p>
+            <a href="CV_RamProsadSarker.pdf" class="download-btn" download>Download CV (PDF)</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Ram Prosad Sarker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
